@@ -4,13 +4,21 @@ body{
     display: grid;
     justify-content: center;
 }
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 10vw;
+    border-radius: 50%;
+    background-color: rgba(232, 222, 222, 0.4);
+}
 .contain {
     height: 74vh;
     margin-left: 2%;
     margin-right: 2%;
     width: 100vw;
-    border: solid;
-    border-color: rgb(23, 124, 155);
+    display: grid;
 }
 header {
     display: flex;
@@ -42,6 +50,8 @@ section {
 .u {
     background-color: rgb(218, 232, 233);
     height: 41vh;
+    padding: 10%;
+    box-sizing: border-box;
 }
 .u h1{
     color: rgb(10, 117, 144);
@@ -124,17 +134,17 @@ button:active{
 }
 #u{
     height: 15vh;
-    width: 100vw;
+    width: 100%;
 }
 #d{
-    height: 40vh;
-    width: 100vw;
+    height: 35vh;
+    width: 100%;
     text-align: center;
 }
 .s1 {
     
     height: 67vh;
-    width: 100vw;
+    width: 100%;
     
 }
 .s2{
@@ -151,7 +161,7 @@ button:active{
 }
 #d {
     height: 50vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -164,6 +174,7 @@ button:active{
     width: 20vw;
     border-radius: 10px;
     margin: 1%;
+    overflow: hidden;
 }
 #d img {
     border-radius: 50%;
@@ -178,6 +189,7 @@ button:active{
     width: 20vw;
     border-radius: 10px;
     margin: 1%;
+    overflow: hidden;
 }
 .th{
     display: grid;
@@ -188,6 +200,7 @@ button:active{
     width: 20vw;
     border-radius: 10px;
     margin: 1%;
+    overflow: hidden;
 }
 .fr{
     display: grid;
@@ -199,4 +212,123 @@ button:active{
     width: 20vw;
     border-radius: 10px;
     margin: 1%;
+    overflow: hidden; 
+}
+#s3{
+    height: 30vh;
+    width: 100%;
+    background-image:url(./image/image1.jpg);
+    background-position: 10%;
+    display: grid;
+    position: relative;
+
+}
+.con{
+    color: white;
+    padding: 20px;
+    margin-left: 12%;
+    height: 25vh;
+    width: 35%;
+    background-color: rgb(50, 134, 168);
+    position: absolute ;
+    box-sizing: border-box;
+}
+.mai{
+    height: 5vh;
+    width: 100%;
+    background-color: white;   
+}
+#s4{
+    height: 62vh;
+    width: 100%;
+    display: grid;
+}
+.s4u{
+    height: 17vh;
+    width: 100%;
+}
+.s4d{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    gap: 2%;
+}
+.na{
+    height: 42vh;
+    width: 38%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.hou{
+    height: 42vh;
+    width: 30%;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.pr{
+    height: 42vh;
+    width: 20%;
+    background-color: rgb(255, 127, 238);
+    color: rgb(245, 241, 241, 0.4);
+    font-size:  x-large;
+    padding: 2%;
+    display: flex;
+    justify-content: end;
+    box-sizing: border-box;
+}
+#s5{
+    height: 30vh;
+    width: 100%;
+    background-image: url(./image/image2.jpg);
+    background-position: 10%;
+    display: grid;
+    position: relative;
+}
+.con5{
+    color: white;
+    padding: 20px;
+    margin-left: 12%;
+    height: 25vh;
+    width: 35%;
+    background-color: rgb(50, 134, 168);
+    position: absolute ;
+    box-sizing: border-box;
+}
+.mai5{
+    height: 5vh;
+    width: 100%;
+    background-color: white;   
+}
+#s6{
+    margin-left: 15%;
+    height: 30vh;
+    width: 70%;
+    background-color: rgb(50, 134, 168);
+    display: grid;
+    align-self: center;
+    position: relative;
+}
+.con6{
+    color: white;
+    background-color: white;
+    padding: 20px;
+    margin-left: 12%;
+    height: 25vh;
+    width: 35%;
+    position: absolute ;
+    box-sizing: border-box;
+}
+.mai6{
+    height: 5vh;
+    width: 100%;
+    background-color: white;   
+}
+footer{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(50, 134, 168);
+}
+.footu{
+    height: 14vh;
+    width: 100%;
 }
