@@ -4,6 +4,8 @@ body{
     display: grid;
     justify-content: center;
 }
+
+
 .icon{
     display: flex;
     justify-content: center;
